@@ -403,6 +403,7 @@ button {
   padding-bottom: 20px;
   font-family: 'Arial', serif;
   font-size: 14px;
+  line-height: 18px;
   color: #444444; 
   border-bottom: 1px solid #d9d9d9;
 }
@@ -413,6 +414,7 @@ button {
   font-family: 'Oswald Regular', serif;
   font-size: 16px;
   text-transform: uppercase;
+  text-decoration: none;
   color: #111111; 
 }
 
@@ -479,4 +481,33 @@ button {
     margin-left: 125px;
     margin-bottom: 35px;
   }
+}
+.how-it-work {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.how-it-work__title {
+  margin-bottom: 20px;
+  font-family: 'Oswald Regular', serif;
+  font-size: 36px;
+  color: #111111; 
+}
+
+
+
+.how-it-work__description {
+  font-family: 'Arial', serif;
+  font-size: 14px;
+  line-height: 18px;
+  color: #444444;
+}
+
+.how-it-work__item {
+  margin: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 80px;
+  
+  
 }
