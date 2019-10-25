@@ -450,6 +450,7 @@ button {
   .catalog-item__description {
     width: 380px;
     font-size: 16px;
+    line-height: 24px;
     border-bottom: none;
   }
   
@@ -457,6 +458,7 @@ button {
     font-size: 20px;
   }
 }
+
 
 /*Десктопная версия*/
 @media (min-width: 1220px){
@@ -482,6 +484,10 @@ button {
     margin-bottom: 35px;
   }
 }
+
+
+/*Стилизация блока how-it-work*/
+/*Мобильная версия*/
 .how-it-work {
   padding-left: 20px;
   padding-right: 20px;
@@ -493,8 +499,6 @@ button {
   font-size: 36px;
   color: #111111; 
 }
-
-
 
 .how-it-work__description {
   font-family: 'Arial', serif;
@@ -508,6 +512,51 @@ button {
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 80px;
+}
+
+
+/*Версия для планшета*/
+@media (min-width: 768px) {
+  .how-it-work__list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
   
+  .how-it-work__description {
+    max-width: 250px;
+    font-size: 16px;
+    line-height: 24px;
+  }
   
+  .how-it-work__item {
+    width: 354px;
+    min-height: 275px;
+    margin: 0;
+    padding-top: 115px;
+    padding-bottom: 90px;
+    padding-left: 0;
+    box-sizing: border-box;
+    
+    box-shadow: inset 0 0 0 1px red;
+  }
+}
+
+
+/*Десктопная версия*/
+@media (min-width: 1220px){
+  .how-it-work__list {
+    flex-wrap: nowrap;
+  }
+  
+  how-it-work__item {
+    min-height: 184px;
+    margin: 0;
+    padding-top: 115px;
+    padding-bottom: 90px;
+    padding-left: 0;
+    box-sizing: border-box;
+    
+    box-shadow: inset 0 0 0 1px red;
+  }
 }
