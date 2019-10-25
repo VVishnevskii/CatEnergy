@@ -325,6 +325,7 @@ button {
   }
 }
 
+/*Десктопная версия*/
 @media (min-width: 1220px){
   .page-banner {
     min-height: 600px;
@@ -364,5 +365,118 @@ button {
     top: 80px;
     width: 552px;
     z-index: -1;
+  }
+}
+
+
+/*Стилизация блока catalog */
+/*Мобильная версия */
+.catalog__inner {
+  display: flex;
+  width: 100%;
+  margin-top: 10px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+}
+
+.catalog-item {
+  margin-bottom: 20px;
+  padding-top: 35px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #f2f2f2;
+}
+
+.catalog-item__title {
+  margin-left: 70px;
+  margin-bottom: 35px;
+  font-family: 'Oswald Regular', serif;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #111111; 
+}
+
+.catalog-item__description {
+  margin: 0;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  font-family: 'Arial', serif;
+  font-size: 14px;
+  color: #444444; 
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.catalog-item__link {
+  display: flex;
+  align-items: center;
+  font-family: 'Oswald Regular', serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #111111; 
+}
+
+.catalog-item__link::after {
+  display: block;
+  width: 35px;
+  height: 11px;
+  background-image: url(img/rightArrow.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  content: "";
+}
+
+
+/*Версия для планшета*/
+@media (min-width: 768px){
+  .catalog-item {
+    width: 728px;
+    margin-bottom: 25px;
+    padding-top: 55px;
+    padding-bottom: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    box-sizing: border-box;
+  }
+  
+  .catalog-item__title {
+    margin-left: 0;
+    margin-bottom: 20px;
+    font-size: 36px;
+  }
+  
+  .catalog-item__description {
+    width: 380px;
+    font-size: 16px;
+    border-bottom: none;
+  }
+  
+  .catalog-item__link {
+    font-size: 20px;
+  }
+}
+
+/*Десктопная версия*/
+@media (min-width: 1220px){
+  .catalog__inner {
+    display: flex;
+    margin-top: 10px;
+    padding: 12px 0px;
+    box-sizing: border-box;
+  }
+  
+  .catalog__list {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .catalog-item-1 {
+    margin-right: 80px;
+  }
+  
+  .catalog-item__title {
+    margin-left: 125px;
+    margin-bottom: 35px;
   }
 }
