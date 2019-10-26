@@ -2,7 +2,6 @@ html {
   max-width: 1440px;
 }
 body {
-  margin: 0;
   padding: 0;
 }
 
@@ -43,6 +42,14 @@ button {
 }
 
 @media (min-width: 1220px){
+  html {
+    margin: 0 auto;
+    max-width: 1440px;
+  }
+  body {
+    margin: 0 auto;
+    padding: 0;
+  }
   .wrapper {
     min-width: 1220px; 
   }
@@ -95,9 +102,8 @@ button {
 }
 
 .main-nav__item a {
-  font-family: 'Oswald', serif;
+  font-family: 'Oswald', 'Arial', sans-serif;
   font-size: 20px;
-  font-weight: 500;
   line-height: 48px;
   text-transform: uppercase;
   color: #000000;
@@ -155,7 +161,6 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 440px;
   }
   
   .top-header__button {
@@ -245,7 +250,8 @@ button {
   margin-top: 28px;
   margin-bottom: 16px;
   text-align: center;
-  font-family: 'Oswald Regular', serif;
+  font-family: 'Oswald', 'Arial', sans-serif;
+  font-weight: 500;
   font-size: 36px;
   line-height: 36px;
   color: #ffffff;
@@ -253,7 +259,7 @@ button {
 
 .page-banner__text {
   margin-bottom: 24px;
-  font-family: 'Oswald Regular', serif;
+  font-family: 'Oswald', 'Arial', sans-serif;
   font-size: 14px;
   text-transform: uppercase;
   line-height: 14px;
@@ -267,7 +273,7 @@ button {
 .page-banner__button {
   width: 280px;
   height: 40px;
-  font-family: 'Oswald Regular', serif;
+  font-family: 'Oswald', 'Arial', sans-serif;
   font-size: 14px;
   text-transform: uppercase;
   color: #ffffff;
@@ -391,7 +397,7 @@ button {
 .catalog-item__title {
   margin-left: 70px;
   margin-bottom: 35px;
-  font-family: 'Oswald Regular', serif;
+  font-family: 'Oswald', 'Arial', sans-serif;
   font-size: 24px;
   text-transform: uppercase;
   color: #111111; 
@@ -401,7 +407,7 @@ button {
   margin: 0;
   margin-bottom: 20px;
   padding-bottom: 20px;
-  font-family: 'Arial', serif;
+  font-family: 'Arial', sans-serif;
   font-size: 14px;
   line-height: 18px;
   color: #444444; 
@@ -411,7 +417,7 @@ button {
 .catalog-item__link {
   display: flex;
   align-items: center;
-  font-family: 'Oswald Regular', serif;
+  font-family: 'Oswald', 'Arial', sans-serif;
   font-size: 16px;
   text-transform: uppercase;
   text-decoration: none;
@@ -448,7 +454,7 @@ button {
   }
   
   .catalog-item__description {
-    width: 380px;
+    width: 340px;
     font-size: 16px;
     line-height: 24px;
     border-bottom: none;
@@ -472,6 +478,7 @@ button {
   .catalog__list {
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
     width: 100%;
   }
   
@@ -482,6 +489,10 @@ button {
   .catalog-item__title {
     margin-left: 125px;
     margin-bottom: 35px;
+  }
+  
+  .catalog-item__description {
+    width: 100%;
   }
 }
 
@@ -495,13 +506,13 @@ button {
 
 .how-it-work__title {
   margin-bottom: 20px;
-  font-family: 'Oswald Regular', serif;
+  font-family: 'Oswald', 'Arial', sans-serif;
   font-size: 36px;
   color: #111111; 
 }
 
 .how-it-work__description {
-  font-family: 'Arial', serif;
+  font-family: 'Arial', sans-serif;
   font-size: 14px;
   line-height: 18px;
   color: #444444;
@@ -545,6 +556,10 @@ button {
 
 /*Десктопная версия*/
 @media (min-width: 1220px){
+  .how-it-work {
+    padding: 0;
+  }
+  
   .how-it-work__list {
     flex-wrap: nowrap;
   }
