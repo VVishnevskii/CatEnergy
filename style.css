@@ -72,7 +72,7 @@ button {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding: 12px 20px;
+  padding: 30px 20px;
   box-sizing: border-box;
 }
 
@@ -169,7 +169,7 @@ button {
   }
   
   .main-nav__item {
-    margin-right: 45px;
+    margin-right: 40px;
   }
   
   .main-nav__item:last-child {
@@ -303,7 +303,7 @@ button {
   }
   
   .page-banner__title {
-    margin-left: 120px;
+    margin-left: 110px;
     text-align: left;
     font-size: 60px;
     line-height: 60px;
@@ -312,16 +312,16 @@ button {
 
   .page-banner__text {
     margin-bottom: 42px;
-    margin-left: 120px;
+    margin-left: 110px;
     font-size: 20px;
     line-height: 20px;
     color: #000000;
   }
   
   .page-banner__image {
-    width: 710px;
-    margin-top: -80px;
-    margin-left: 50px;
+    width: 680px;
+    margin-top: -70px;
+    margin-left: 60px;
     order: 1;
     z-index: -1;
   }
@@ -329,7 +329,7 @@ button {
   .page-banner__button {
     width: 245px;
     height: 52px;
-    margin-left: 120px;
+    margin-left: 110px;
     font-size: 20px;
   }
 }
