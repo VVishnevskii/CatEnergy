@@ -369,11 +369,7 @@ button {
 
   .page-banner__text {
     margin-bottom: 42px;
-<<<<<<< HEAD
     margin-left: 105px;
-=======
-    margin-left: 110px;
->>>>>>> gh-pages
     font-size: 20px;
     line-height: 20px;
     color: #000000;
@@ -390,11 +386,7 @@ button {
   .page-banner__button {
     width: 245px;
     height: 52px;
-<<<<<<< HEAD
     margin-left: 105px;
-=======
-    margin-left: 110px;
->>>>>>> gh-pages
     font-size: 20px;
   }
 }
