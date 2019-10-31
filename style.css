@@ -78,9 +78,61 @@ button {
 
 
 .top-header__button {
+  position: relative;
   width: 26px;
   height: 20px;
-  background-color: black;
+  background-color: transparent;
+}
+
+.top-header__button span {
+  position: absolute;
+  top: 8px;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background-color: #000000;
+}
+
+.top-header__button span::before,
+.top-header__button span::after {
+  position: absolute;
+  display: block;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background-color: #000000;
+  transition-duration: 0.1s, 0.1s;
+  transition-delay: 0.1s, 0s;
+  content: "";
+}
+
+.top-header__button span::before {
+  top: -10px;
+  transition-property: top, transform;
+}
+
+.top-header__button span::after {
+  bottom: -10px;
+  transition-property: bottom, transform;
+}
+
+.top-header__button.active span {
+  background: none;
+}
+ 
+.top-header__button.active span::before {
+  top: 0;
+  transform: rotate(45deg);
+}
+ 
+.top-header__button.active span::after {
+  bottom: 0;
+  transform: rotate(-45deg);
+}
+ 
+.top-header__button.active span::before,
+.top-header__button.active span::after {
+  transition-delay: 0s, 0.1s;
 }
 
 .main-nav--wide-screen {
