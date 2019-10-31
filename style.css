@@ -385,7 +385,10 @@ button {
     width: 245px;
     height: 52px;
     margin-left: 105px;
+<<<<<<< HEAD
     border: none;
+=======
+>>>>>>> a4cf50d730f413440728b0d192adb79a63d0d131
     font-size: 20px;
   }
 }
