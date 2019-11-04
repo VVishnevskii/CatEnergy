@@ -717,3 +717,7 @@ button {
 .living-example__img img {
   width: 311px;
 }
+
+.living-example__img-overlay {
+  display: none;
+}
