@@ -599,6 +599,9 @@ button {
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 80px;
+  background-size: 60px 60px;
+  background-position: center left;
+  background-repeat: no-repeat;
 }
 
 
@@ -734,4 +737,20 @@ button {
 
 .living-example__img-overlay {
   display: none;
+}
+
+.how-it-work__item-1 {
+  background-image: url(img/howItWorkItem1.png);
+}
+
+.how-it-work__item-2 {
+  background-image: url(img/howItWorkItem2.png);
+}
+
+.how-it-work__item-3 {
+  background-image: url(img/howItWorkItem3.png);
+}
+
+.how-it-work__item-4 {
+  background-image: url(img/howItWorkItem4.png);
 }
