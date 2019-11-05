@@ -456,6 +456,20 @@ button {
   background-color: #f2f2f2;
 }
 
+.catalog-item-1 {
+  background-image: url(img/catalogItem1.png);
+  background-size: 50px 50px;
+  background-position: 10% 12%;
+  background-repeat: no-repeat;
+}
+
+.catalog-item-2 {
+  background-image: url(img/catalogItem2.png);
+  background-size: 64px 50px;
+  background-position: 8% 12%;
+  background-repeat: no-repeat;
+}
+
 .catalog-item__title {
   margin-left: 70px;
   margin-bottom: 35px;
