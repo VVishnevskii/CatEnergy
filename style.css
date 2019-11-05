@@ -459,14 +459,14 @@ button {
 .catalog-item-1 {
   background-image: url(img/catalogItem1.png);
   background-size: 50px 50px;
-  background-position: 10% 12%;
+  background-position: 20px 28px;
   background-repeat: no-repeat;
 }
 
 .catalog-item-2 {
   background-image: url(img/catalogItem2.png);
   background-size: 64px 50px;
-  background-position: 8% 12%;
+  background-position: 12px 30px;
   background-repeat: no-repeat;
 }
 
