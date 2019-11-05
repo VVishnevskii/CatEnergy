@@ -775,3 +775,25 @@ button {
   display: none;
 }
 
+
+.invitation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.invitation__text {
+  margin-right: 20px;
+  font-family: 'Oswald', 'Arial', sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #111111; 
+}
+
+.invitation__address {
+  font-family: 'Arial', sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  color: #444444;
+}
