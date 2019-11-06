@@ -323,6 +323,7 @@ button {
 }
 
 .footer-map {
+  width: 100%;
   overflow: hidden;
 }
 
@@ -660,11 +661,27 @@ button {
     padding-left: 0;
     box-sizing: border-box;
     background-size: 80px 80px;
-    background-position: top left;
-    background-repeat: no-repeat;
-}
     
-    box-shadow: inset 0 0 0 1px red;
+  }
+  
+  .how-it-work__item-1 {
+    background: url(img/howItWorkItem1.png) top left no-repeat,
+                url(img/howItWorkItemNumber1.png) 125px 35px no-repeat;
+  }
+  
+  .how-it-work__item-2 {
+    background: url(img/howItWorkItem2.png) top left no-repeat,
+                url(img/howItWorkItemNumber2.png) 125px 35px no-repeat;
+  }
+  
+  .how-it-work__item-3 {
+    background: url(img/howItWorkItem3.png) top left no-repeat,
+                url(img/howItWorkItemNumber3.png) 125px 35px no-repeat;
+  }
+  
+  .how-it-work__item-4 {
+    background: url(img/howItWorkItem4.png) top left no-repeat,
+                url(img/howItWorkItemNumber4.png) 125px 35px no-repeat;
   }
 }
 
