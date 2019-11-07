@@ -340,6 +340,7 @@ button {
   color: #ffffff;
   background-color: #68b738;
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .page-banner__button:hover,
