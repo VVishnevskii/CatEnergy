@@ -821,12 +821,8 @@ button {
   }
 
   .living-example__description {
-    margin: 0;
-    margin-bottom: 40px;
-    font-family: 'Arial', sans-serif;
-    font-size: 14px;
-    line-height: 18px;
-    color: #444444;
+    font-size: 16px;
+    line-height: 24px;
   }
   
   .living-example__inner {
@@ -840,60 +836,32 @@ button {
     margin: 0;
     max-width: 350px;
   }
-
+  
+  .living-example__result-1 {
+    margin-right: 45px;
+  }
+  
   .living-example__result-title {
-    width: 150px;
+    width: 160px;
     margin: 0;
     padding: 15px 0;
-    text-align: center;
-    font-family: 'Oswald', 'Arial', sans-serif;
-    border: 2px solid #cfcfcf;
-    border-radius: 5%;
-    font-size: 24px;
-    text-transform: uppercase;
-    color: #111111; 
-    box-sizing: border-box;
+    font-size: 30px;
+  }
+  
+  .living-example__result-caption {
+    width: auto;
+    padding: 0 10px;
+    font-size: 14px;
+    background-color: #ffffff;
   }
 
-.living-example__result {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.living-example__costs {
-  font-family: 'Oswald', 'Arial', sans-serif;
-  font-size: 14px;
-  text-align: center;
-  text-transform: uppercase;
-  color: #111111; 
-}
-
-.living-example__result-caption {
-  width: auto;
-  margin: 0;
-  margin-top: -8px;
-  padding: 0 10px;
-  text-align: center;
-  background-color: #ffffff;
-  font-family: 'Arial', sans-serif;
-  font-size: 12px;
-  text-transform: lowercase;
-  color: #444444; 
-}
-
-.living-example__img {
-  display: flex;
-  justify-content: center;
-}
-
-.living-example__img img {
-  width: 101%;
-}
-
-.living-example__img-overlay {
-  display: none;
-}
+  .living-example__costs {
+    display: flex;
+    justify-content: flex-end;
+    width: 175px;
+    font-size: 20px;
+    text-align: right;
+  }
 }
 
 .invitation {
