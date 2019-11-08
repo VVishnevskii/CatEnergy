@@ -1,4 +1,3 @@
-
   let buttonPageHeader = document.querySelector('.top-header__button');
   let mainNavMenu = document.querySelector('.main-nav--mobile');
 
@@ -13,6 +12,7 @@
       buttonPageHeader.classList.remove('active');
     }
   })
+
 
 
 

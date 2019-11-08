@@ -532,14 +532,13 @@ button {
     background-repeat: no-repeat;
   }
 
-.catalog-item-2 {
+  .catalog-item-2 {
     background-image: url(img/catalogItem2.png);
     background-size: 264px 200px;
     background-position: 420px 58px;
     background-repeat: no-repeat;
   }
 
-  
   .catalog-item__title {
     margin-left: 0;
     margin-bottom: 20px;
@@ -575,8 +574,20 @@ button {
     width: 100%;
   }
   
+    
   .catalog-item-1 {
     margin-right: 80px;
+    background-image: url(img/catalogItem1.png);
+    background-size: 80px 80px;
+    background-position: 60px 38px;
+    background-repeat: no-repeat;
+  }
+
+  .catalog-item-2 {
+    background-image: url(img/catalogItem2.png);
+    background-size: 110px 80px;
+    background-position: 40px 38px;
+    background-repeat: no-repeat;
   }
   
   .catalog-item__title {
@@ -585,7 +596,7 @@ button {
   }
   
   .catalog-item__description {
-    max-width: 100%;
+    width: 100%;
   }
 }
 
@@ -769,7 +780,7 @@ button {
 }
 
 .living-example__result-caption {
-  width: 86px;
+  width: 80px;
   margin: 0;
   margin-top: -8px;
   text-align: center;
@@ -830,19 +841,19 @@ button {
     max-width: 350px;
   }
 
-.living-example__result-title {
-  width: 124px;
-  margin: 0;
-  padding: 15px 0;
-  text-align: center;
-  font-family: 'Oswald', 'Arial', sans-serif;
-  border: 2px solid #cfcfcf;
-  border-radius: 5%;
-  font-size: 24px;
-  text-transform: uppercase;
-  color: #111111; 
-  box-sizing: border-box;
-}
+  .living-example__result-title {
+    width: 150px;
+    margin: 0;
+    padding: 15px 0;
+    text-align: center;
+    font-family: 'Oswald', 'Arial', sans-serif;
+    border: 2px solid #cfcfcf;
+    border-radius: 5%;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #111111; 
+    box-sizing: border-box;
+  }
 
 .living-example__result {
   display: flex;
@@ -859,9 +870,10 @@ button {
 }
 
 .living-example__result-caption {
-  width: 86px;
+  width: auto;
   margin: 0;
   margin-top: -8px;
+  padding: 0 10px;
   text-align: center;
   background-color: #ffffff;
   font-family: 'Arial', sans-serif;
