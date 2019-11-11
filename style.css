@@ -927,6 +927,7 @@ button {
 }
 
 .footer__inner {
+  margin-top: -5px;
   padding: 0 20px;
   background-color: #f2f2f2;
 }
