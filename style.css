@@ -886,6 +886,33 @@ button {
   color: #444444;
 }
 
+@media (min-width: 768px) {
+  .invitation {
+    margin: 55px 0;
+    justify-content: space-between;
+    padding: 0 70px;
+  }
+  
+  .invitation__text {
+    width: 160px;
+    margin: 0;
+    font-size: 20px;
+    line-height: 25px;
+  }
+  
+  .invitation__address {
+    text-align: right;
+    width: 160px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  
+  .invitation__address--margin {
+    display: block;
+    padding-top: 25px;
+  }
+}
+
 .footer-logo {
   display: flex;
   justify-content: center;
@@ -901,9 +928,13 @@ button {
 
 .footer__inner {
   padding: 0 20px;
+  background-color: #f2f2f2;
 }
 
 .footer-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   min-height: 30px;
   border-bottom: 1px solid #d9d9d9;
 }
@@ -911,4 +942,93 @@ button {
 .footer-copyright {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+
+.footer-copyright__logo {
+  width: 27px;
+  height: 34px;
+  opacity: 0.7;
+}
+
+.footer-copyright__text {
+  margin: 28px 0;
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  color: #444444;
+}
+
+.social__item {
+  margin: 22px 0;
+  margin-right: 35px;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.social__item a {
+  margin: 0;
+}
+
+.social__item:last-child {
+  margin: 0;
+}
+
+.social__item a {
+  display: flex;
+  align-items: center;
+}
+
+.social__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social__item-inst img {
+  width: 16px;
+}
+
+.social__item-vk img {
+  width: 22px;
+}
+
+.social__item-fb img {
+  width: 10px;
+}
+
+
+@media (min-width: 768px) {
+  .footer__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 30px;
+  }
+  
+  .footer-logo {
+    display: flex;
+    justify-content: center;
+    width: 132px;
+    border-bottom: none;
+  }
+  
+  .footer-social {
+    border-bottom: none;
+  }
+  
+  .social__item-inst img {
+    width: 23px;
+  }
+
+  .social__item-vk img {
+    width: 30px;
+  }
+
+  .social__item-fb img {
+    width: 14px;
+  }
+  
+  .footer-copyright__text {
+    margin-right: 20px;
+  }
 }
