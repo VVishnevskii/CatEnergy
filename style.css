@@ -48,10 +48,12 @@ button {
     margin: 0 auto;
     max-width: 1440px;
   }
+  
   body {
     margin: 0 auto;
     padding: 0;
   }
+  
   .wrapper {
     min-width: 1220px; 
   }
@@ -237,15 +239,16 @@ button {
 /*Десктопная версия*/
 
 @media (min-width: 1220px){
+   body {
+    background-image: url(img/indexBackgroundDesktop.jpg);
+    background-size: 50% auto;
+    background-position: top right;
+    background-repeat: no-repeat;
+  }
+  
   .top-header__inner{
     max-width: 1440px;
     padding-top: 40px;  
-  }
-  
-  body {
-    background-image: url(img/indexBackgroundDesktop.jpg);
-    background-position: top right;
-    background-repeat: no-repeat;
   }
   
   .top-header__main-logo--mobile {
