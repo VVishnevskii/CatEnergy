@@ -818,6 +818,11 @@ button {
   padding-bottom: 20px;
 }
 
+.living-example-switch span {
+  margin: 0 20px;
+  margin-top: -4px;
+}
+
 .living-example-switch input {
   position:absolute;
   left: 0;
@@ -1122,3 +1127,4 @@ button {
     margin-right: 20px;
   }
 }
+

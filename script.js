@@ -14,6 +14,15 @@
   })
 
 
+let catSwitch = document.querySelector('#cat-switch');
 
-
+catSwitch.addEventListener('click', function() {
+  
+  if (!catSwitch.checked) {
+    console.log('Толстый кот');
+  }
+  else {
+    console.log('Худой кот');
+  }
+})
 
