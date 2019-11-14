@@ -807,6 +807,92 @@ button {
   display: none;
 }
 
+.living-example-switch input:not([type=checkbox]):not([type=radio]){           display: none;
+}
+
+.living-example-switch { 
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+.living-example-switch input {
+  position:absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 20px;
+  z-index: 2;
+  opacity: 0;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.living-example-switch__state label {
+  display: block;
+  width: 100px;
+  height: 10px;
+}
+
+.living-example-switch__state label:after,
+.living-example-switch__state label:before {
+  content:''; 
+  width: 50px; 
+  height: 10px; 
+  display: block;
+  box-sizing: border-box;
+  border-radius: 0; 
+  border: 2px solid transparent;
+  z-index: 0;
+  position:absolute; 
+  left: -1px; 
+  top: 0;
+  background-color: #ffffff; 
+}
+
+
+.living-example-switch__state {
+  position:relative
+} 
+.living-example-switch__state:before {
+  content:''; 
+  border:1px solid #111111;
+  border-radius: 10px;
+  width: 100px;
+  box-sizing: unset;
+  height: 12px;
+  position: absolute;
+  top: -2px;
+  z-index:0;
+  transition:all .5s ease;
+}
+
+.living-example-switch__state label:after,
+.living-example-switch__state label:before{ 
+  transition:all .5s ease;
+  border-radius: 10px 10px;
+  left:0;
+  border-color:transparent;
+  -webkit-transform:scale(.8);
+  -ms-transform:scale(.8);
+  transform: scale(.8);
+}
+.living-example-switch__state label:after{
+  background-color:green;
+}
+
+.living-example-switch input:checked~.living-example-switch__state label:before {
+  opacity: 0;
+}
+
+.living-example-switch input:checked~.living-example-switch__state label:after{
+  background-color: green;
+  left: 52px;
+}
+
 /*Планшетная версия*/
 @media (min-width: 768px) {
   .living-example {
