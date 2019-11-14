@@ -21,11 +21,15 @@ let catAfter = document.querySelector('.living-example__img-after');
 catSwitch.addEventListener('click', function() {
   if (!catSwitch.checked) {
     catAfter.classList.add('living-example__img--hidden');
+    catAfter.classList.remove('living-example__img--show');
     catBefore.classList.remove('living-example__img--hidden');
+    catBefore.classList.add('living-example__img--show');
   }
   else {
     catAfter.classList.remove('living-example__img--hidden');
+    catAfter.classList.add('living-example__img--show');
     catBefore.classList.add('living-example__img--hidden');
+    catBefore.classList.remove('living-example__img--show');
   }
 })
 
