@@ -798,9 +798,9 @@ button {
 
 .living-example__img img {
   position: absolute;
-  bottom: 0px;
+  bottom: 10px;
   left: -140px;
-  width: 300px;
+  width: 320px;
 }
 
 .living-example__img--hidden {
@@ -914,7 +914,7 @@ button {
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  min-height: 50vh;
+  min-height: 30vh;
 }
 
 /*Планшетная версия*/
