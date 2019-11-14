@@ -914,7 +914,7 @@ button {
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  min-height: 30vh;
+  height: 320px;
 }
 
 /*Планшетная версия*/
