@@ -795,16 +795,17 @@ button {
 }
 
 .living-example__img {
-  display: flex;
-  justify-content: center;
+  position: absolute;
+  top: 5px;
+  left: 15px;
 }
 
 .living-example__img img {
   width: 101%;
 }
 
-.living-example__img-overlay {
-  display: none;
+.living-example__img--hidden {
+  display: none !important;
 }
 
 .living-example-switch input:not([type=checkbox]):not([type=radio]){           display: none;
@@ -1128,3 +1129,14 @@ button {
   }
 }
 
+
+.living-example__img--show {
+  display: block;
+}
+
+.living-example__img-сontainer {
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+  min-height: 250px;
+}
