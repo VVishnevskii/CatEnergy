@@ -794,18 +794,14 @@ button {
   color: #444444; 
 }
 
-.living-example__img {
-  position: absolute;
-  top: 5px;
-  left: 15px;
-}
+
 
 .living-example__img img {
   width: 101%;
 }
 
 .living-example__img--hidden {
-  display: none !important;
+  display: none;
 }
 
 .living-example-switch input:not([type=checkbox]):not([type=radio]){           display: none;
@@ -815,6 +811,7 @@ button {
   position: relative;
   display: flex;
   justify-content: center;
+  margin: 0 auto;
   margin-top: 20px;
   padding-bottom: 20px;
 }
@@ -897,6 +894,18 @@ button {
 .living-example-switch input:checked~.living-example-switch__state label:after{
   background-color: green;
   left: 52px;
+}
+
+.living-example__img--show {
+  display: block;
+}
+
+.living-example__img-сontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  min-height: 36vh;
 }
 
 /*Планшетная версия*/
@@ -1130,13 +1139,4 @@ button {
 }
 
 
-.living-example__img--show {
-  display: block;
-}
 
-.living-example__img-сontainer {
-  display: flex;
-  align-items: flex-end;
-  position: relative;
-  min-height: 250px;
-}
