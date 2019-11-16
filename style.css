@@ -799,8 +799,16 @@ button {
 .living-example__img img {
   position: absolute;
   bottom: 10px;
+}
+
+.living-example__img-before img {
+  width: 311px;
   left: -140px;
-  width: 320px;
+}
+
+.living-example__img-after img {
+  width: 251px;
+  left: -115px;
 }
 
 .living-example__img--hidden {
@@ -817,9 +825,18 @@ button {
   position: relative;
   display: flex;
   justify-content: center;
+  align-items: center;
   margin: 0 auto;
   margin-top: 20px;
   padding-bottom: 20px;
+}
+
+
+.living-example-switch span {
+  font-family: 'Oswald', 'Arial', sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #111111; 
 }
 
 .living-example-switch span {
