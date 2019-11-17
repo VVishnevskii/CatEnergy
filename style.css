@@ -932,27 +932,31 @@ button {
   height: 320px;
 }
 
+.living-example__img {
+  position: relative;
+}
+
 /*Планшетная версия*/
 @media (min-width: 768px) {
-  .living-example__img-сontainer--mobile {
-    display: none;
-  }
+ 
   
   .living-example {
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 0;
+    padding-right: 0;
     background-color: transparent;
   }
 
   .living-example__title {
     margin-top: 25px;
-    padding: 25px 0;
+    padding: 25px 20px;
     font-family: 'Oswald', 'Arial', sans-serif;
     font-size: 36px;
     color: #111111; 
   }
 
   .living-example__description {
+    padding-left: 20px;
+    padding-right: 20px;
     font-size: 16px;
     line-height: 24px;
   }
@@ -960,6 +964,8 @@ button {
   .living-example__inner {
     display: flex;
     justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .living-example__options {
@@ -993,6 +999,45 @@ button {
     width: 175px;
     font-size: 20px;
     text-align: right;
+  }
+  
+  .living-example__img-сontainer {
+    height: 680px;
+  }
+  
+  .living-example__img-сontainer--tablet {
+    background-image: url(img/livingExampleTabletBg.png);
+    background-position: bottom;
+    background-repeat: repeat-x;
+  }
+  
+  .living-example__img-before img {
+    width: 701px;
+    left: -340px;
+  }
+
+  .living-example__img-after img {
+    width: 675px;
+    left: -340px;
+  }
+  
+  .living-example__img img {
+    bottom: 0px;
+  }
+  
+  .living-example-switch { 
+    padding-bottom: 60px;
+  }
+}
+
+/*Десктопная версия*/
+@media (min-width: 1220px){
+  .living-example__img-сontainer--mobile {
+    display: none;
+  }
+  
+  .living-example__img-сontainer--tablet {
+    display: none;
   }
 }
 
@@ -1166,14 +1211,10 @@ button {
   }
 }
 
-.living-example__img {
-  position: relative;
-}
-
 
 .container {
   margin: 0 auto;
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;

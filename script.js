@@ -47,15 +47,16 @@ slider.addEventListener('mousedown', function (evt) {
   slider.style.backgroundColor = "green";
 }, false);
 
+
 document.addEventListener('mouseup', function () {
   flag = false;
   slider.style.backgroundColor = "red";
 }, false);
 
+
 sliderContainer.addEventListener('mousemove', function (evt) {
   let res = evt.pageX - photoContainer.offsetLeft;
   
-  console.log('Я работаю!');
 
   if (flag && (res > 0) && (res < rightPhoto.offsetWidth)) {
     slider.style.left = (res - 5) + 'px';
