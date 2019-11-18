@@ -1049,24 +1049,30 @@ button {
   
   .living-example__inner-desktop--left {
     width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
   
   .living-example__inner-desktop--right {
     width: 60%;
   }
   
+  .living-example__description {
+    margin-bottom: 65px;
+  }
+  
   .living-example__costs {
-    display: flex;
-    justify-content: flex-end;
-    width: 175px;
-    font-size: 20px;
-    text-align: center;
+    display: block;
+    width: auto;
+    margin-top: 50px;
   }
   
    .living-example__inner {
     display: flex;
-     flex-direction: column;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
     padding-left: 20px;
     padding-right: 20px;
   }
@@ -1089,7 +1095,7 @@ button {
     position: absolute;
     top: 0;
     left: 0;
-    width: 450px;
+    width: 550px;
     height: 400px;
   }
   
