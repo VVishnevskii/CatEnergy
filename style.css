@@ -1141,6 +1141,10 @@ button {
   padding: 0 20px;
 }
 
+.invitation--desktop {
+  display: none;
+}
+
 .invitation__text {
   margin-right: 20px;
   font-family: 'Oswald', 'Arial', sans-serif;
@@ -1180,6 +1184,30 @@ button {
   .invitation__address--margin {
     display: block;
     padding-top: 25px;
+  }
+}
+
+/*Десктопная версия*/
+@media (min-width: 1220px) {
+  .invitation--mobile-tablet {
+    display: none;
+  }
+  
+  .footer-map {
+    position: relative;
+  }
+  
+  .invitation--desktop {
+    display: flex;
+    padding: 50px;
+    position: absolute;
+    top: 38px;
+    left: 100px;
+    background-color: #ffffff;
+  }
+  
+  .invitation__text {
+    margin-right: 80px;
   }
 }
 
