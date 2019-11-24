@@ -1105,19 +1105,26 @@ button {
     justify-content: center;
     width: 450px;
     min-height: 50px;
+    background-image: url(img/beforeAfterScale.png);
+    background-position: center;
+    background-repeat: no-repeat;
   }
 
   .slider {
     position: absolute;
-    width: 30px;
-    height: 30px;
-    background-color: red;
+    width: 42px;
+    height: 42px;
+    background-color: #ffffff;
+    background-image: url(img/sliderControl.png);
+    background-position: center;
+    background-repeat: no-repeat;
     border: 1px solid transparent;
     border-radius: 50%;
     overflow: hidden;
     top: 25px;
     left: 50%;
     transform: translate(-50%, -50%);
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.15);
   }
 
   .left {
