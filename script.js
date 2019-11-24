@@ -44,13 +44,13 @@ let flag = false;
 slider.addEventListener('mousedown', function (evt) {
   evt.preventDefault();
   flag = true;
-  slider.style.backgroundColor = "green";
+  slider.style.backgroundColor = "#f2f2f2";
 }, false);
 
 
 document.addEventListener('mouseup', function () {
   flag = false;
-  slider.style.backgroundColor = "red";
+  slider.style.backgroundColor = "#ffffff";
 }, false);
 
 
