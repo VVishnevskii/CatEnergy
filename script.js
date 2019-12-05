@@ -58,7 +58,7 @@ sliderContainer.addEventListener('mousemove', function (evt) {
   let res = evt.pageX - photoContainer.offsetLeft;
   
 
-  if (flag && (res > 0) && (res < rightPhoto.offsetWidth)) {
+  if (flag && (res > 0) && (res < 450)) {
     slider.style.left = (res - 5) + 'px';
     leftPhoto.style.width = res + 'px';
   }

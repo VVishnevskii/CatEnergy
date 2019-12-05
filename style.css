@@ -1093,10 +1093,10 @@ button {
   
   .photo {
     position: absolute;
-    top: 0;
+    top: -60px;
     left: 0;
-    width: 550px;
-    height: 400px;
+    width: 440px;
+    height: 467px;
   }
   
   .slider-container {
@@ -1128,14 +1128,14 @@ button {
   }
 
   .left {
-    width: 55%;
+    width: 50%;
     z-index: 2;
     background-image: url(img/beforeWideScreen.png);
     background-size: cover;
   }
 
   .right {
-    left: -10px;
+    left: -40px;
     background-image: url(img/afterWideScreen.png);
     background-size: cover;
   }
