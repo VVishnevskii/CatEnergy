@@ -64,3 +64,22 @@ sliderContainer.addEventListener('mousemove', function (evt) {
   }
 
 }, false);
+
+
+const popup = document.querySelector('.popup-gag');
+const popupActivator = document.querySelectorAll('.popup-activator');
+const popupCloseButton = document.querySelector('.popup-gag__close');
+
+for (var i = 0; i < popupActivator.length; i++) {
+  popupActivator[i].addEventListener ('click', function (evt) {
+    evt.preventDefault();
+    popup.style.display = 'block';
+  })
+}
+
+popupCloseButton.addEventListener('click', function () {
+  popup.style.display = 'none';
+})
+
+
+
